@@ -13,3 +13,4 @@ suites:
   - name: bad-poise-ruby
     run_list:
       - recipe[bad_poise_ruby]
+  - name: no-poise-ruby-works

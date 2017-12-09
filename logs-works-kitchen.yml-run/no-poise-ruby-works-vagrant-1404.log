@@ -1,0 +1,128 @@
+I, [2017-12-08T21:11:46.312066 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: -----> Cleaning up any prior instances of <no-poise-ruby-works-vagrant-1404>
+I, [2017-12-08T21:11:46.312659 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: -----> Destroying <no-poise-ruby-works-vagrant-1404>...
+I, [2017-12-08T21:11:49.185012 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Forcing shutdown of VM...
+I, [2017-12-08T21:11:50.408789 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Destroying VM and associated drives...
+I, [2017-12-08T21:11:50.797817 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Vagrant instance <no-poise-ruby-works-vagrant-1404> destroyed.
+I, [2017-12-08T21:11:50.798833 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Finished destroying <no-poise-ruby-works-vagrant-1404> (0m4.48s).
+I, [2017-12-08T21:11:50.799125 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: -----> Testing <no-poise-ruby-works-vagrant-1404>
+I, [2017-12-08T21:11:50.799226 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: -----> Creating <no-poise-ruby-works-vagrant-1404>...
+I, [2017-12-08T21:11:51.633580 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2017-12-08T21:11:51.830136 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Importing base box 'ubuntu/trusty64'...
+I, [2017-12-08T21:12:02.388925 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: [KProgress: 10%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2017-12-08T21:12:02.670896 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Checking if box 'ubuntu/trusty64' is up to date...
+I, [2017-12-08T21:12:04.175441 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: A newer version of the box 'ubuntu/trusty64' is available! You currently
+I, [2017-12-08T21:12:04.175519 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: have version '20171010.0.0'. The latest is version '20171205.0.1'. Run
+I, [2017-12-08T21:12:04.175551 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: `vagrant box update` to update.
+I, [2017-12-08T21:12:05.015578 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Setting the name of the VM: no-poise-ruby-works-vagrant-1404_default_1512785524906_77209
+I, [2017-12-08T21:12:05.255461 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Clearing any previously set forwarded ports...
+I, [2017-12-08T21:12:06.995827 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Fixed port collision for 22 => 2222. Now on port 2204.
+I, [2017-12-08T21:12:07.113329 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Clearing any previously set network interfaces...
+I, [2017-12-08T21:12:07.229596 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Preparing network interfaces based on configuration...
+I, [2017-12-08T21:12:07.229839 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: Adapter 1: nat
+I, [2017-12-08T21:12:07.341685 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Forwarding ports...
+I, [2017-12-08T21:12:07.472215 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: 22 (guest) => 2204 (host) (adapter 1)
+I, [2017-12-08T21:12:07.867994 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Booting VM...
+I, [2017-12-08T21:12:08.178077 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2017-12-08T21:12:08.567472 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: SSH address: 127.0.0.1:2204
+I, [2017-12-08T21:12:08.567592 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: SSH username: vagrant
+I, [2017-12-08T21:12:08.567719 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: SSH auth method: private key
+I, [2017-12-08T21:12:27.530860 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: 
+I, [2017-12-08T21:12:27.531173 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2017-12-08T21:12:27.531287 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: this with a newly generated keypair for better security.
+I, [2017-12-08T21:12:28.149457 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: 
+I, [2017-12-08T21:12:28.149544 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: Inserting generated public key within guest...
+I, [2017-12-08T21:12:28.190590 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: Removing insecure key from the guest if it's present...
+I, [2017-12-08T21:12:28.234775 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2017-12-08T21:12:29.268738 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Machine booted and ready!
+I, [2017-12-08T21:12:29.268966 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Checking for guest additions in VM...
+I, [2017-12-08T21:12:29.387541 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: The guest additions on this VM do not match the installed version of
+I, [2017-12-08T21:12:29.387621 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2017-12-08T21:12:29.387655 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: prevent things such as shared folders from working properly. If you see
+I, [2017-12-08T21:12:29.387682 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: shared folder errors, please make sure the guest additions within the
+I, [2017-12-08T21:12:29.387707 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2017-12-08T21:12:29.387730 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: your host and reload your VM.
+I, [2017-12-08T21:12:29.387754 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: 
+I, [2017-12-08T21:12:29.387777 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: Guest Additions Version: 4.3.36
+I, [2017-12-08T21:12:29.387800 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:     default: VirtualBox Version: 5.2
+I, [2017-12-08T21:12:29.388068 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Setting hostname...
+I, [2017-12-08T21:12:29.595630 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2017-12-08T21:12:31.683566 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: [SSH] Established
+I, [2017-12-08T21:12:31.683847 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Vagrant instance <no-poise-ruby-works-vagrant-1404> created.
+I, [2017-12-08T21:12:31.684674 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Finished creating <no-poise-ruby-works-vagrant-1404> (0m40.88s).
+I, [2017-12-08T21:12:31.685292 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: -----> Converging <no-poise-ruby-works-vagrant-1404>...
+I, [2017-12-08T21:12:31.685943 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Preparing files for transfer
+I, [2017-12-08T21:12:31.686069 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Preparing dna.json
+I, [2017-12-08T21:12:31.686565 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Resolving cookbook dependencies with Berkshelf 6.3.1...
+I, [2017-12-08T21:12:31.988326 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Removing non-cookbook files before transfer
+I, [2017-12-08T21:12:32.005481 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Preparing solo.rb
+I, [2017-12-08T21:12:32.016410 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: -----> Installing Chef Omnibus (13)
+I, [2017-12-08T21:12:32.017144 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2017-12-08T21:12:32.017510 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Trying wget...
+I, [2017-12-08T21:12:32.089085 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Download complete.
+I, [2017-12-08T21:12:32.100770 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ubuntu 14.04 x86_64
+I, [2017-12-08T21:12:32.101110 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Getting information for chef stable 13 for ubuntu...
+I, [2017-12-08T21:12:32.101596 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: downloading https://omnitruck.chef.io/stable/chef/metadata?v=13&p=ubuntu&pv=14.04&m=x86_64
+I, [2017-12-08T21:12:32.101763 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:   to file /tmp/install.sh.1772/metadata.txt
+I, [2017-12-08T21:12:32.102417 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: trying wget...
+I, [2017-12-08T21:12:32.703140 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: sha1	968d6f567dc45ab4cd8d8f94a5e43d781a1d5ba1
+I, [2017-12-08T21:12:32.703759 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: sha256	c523feb2494b407d71c56261035a58b6897ec6312f917477ef0b3fc4e27c072d
+I, [2017-12-08T21:12:32.704449 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: url	https://packages.chef.io/files/stable/chef/13.6.4/ubuntu/14.04/chef_13.6.4-1_amd64.deb
+I, [2017-12-08T21:12:32.705599 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: version	13.6.4
+I, [2017-12-08T21:12:32.707114 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: downloaded metadata file looks valid...
+I, [2017-12-08T21:12:32.712199 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: downloading https://packages.chef.io/files/stable/chef/13.6.4/ubuntu/14.04/chef_13.6.4-1_amd64.deb
+I, [2017-12-08T21:12:32.712457 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:   to file /tmp/install.sh.1772/chef_13.6.4-1_amd64.deb
+I, [2017-12-08T21:12:32.712950 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: trying wget...
+I, [2017-12-08T21:12:37.643699 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Comparing checksum with sha256sum...
+I, [2017-12-08T21:12:37.905791 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Installing chef 13
+I, [2017-12-08T21:12:37.906061 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: installing with dpkg...
+I, [2017-12-08T21:12:38.277054 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 63103 files and directories currently installed.)
+I, [2017-12-08T21:12:38.279447 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Preparing to unpack .../chef_13.6.4-1_amd64.deb ...
+I, [2017-12-08T21:12:39.441679 #37312]  INFO -- no-poise-ruby-works-vagrant-1404:  * Stopping chef-client chef-client       [80G [74G[ OK ]
+I, [2017-12-08T21:12:39.450020 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Unpacking chef (13.6.4-1) over (11.8.2-2) ...
+I, [2017-12-08T21:12:47.671616 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: dpkg: warning: unable to delete old directory '/var/log/chef': Directory not empty
+I, [2017-12-08T21:12:47.674247 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: dpkg: warning: unable to delete old directory '/etc/chef': Directory not empty
+I, [2017-12-08T21:12:47.712298 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Setting up chef (13.6.4-1) ...
+I, [2017-12-08T21:12:47.772388 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Thank you for installing Chef!
+I, [2017-12-08T21:12:47.797734 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+I, [2017-12-08T21:12:48.159680 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Transferring files to <no-poise-ruby-works-vagrant-1404>
+I, [2017-12-08T21:12:49.387585 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Starting Chef Client, version 13.6.4
+I, [2017-12-08T21:12:50.553577 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Creating a new client identity for no-poise-ruby-works-vagrant-1404 using the validator key.
+I, [2017-12-08T21:12:50.617324 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: resolving cookbooks for run list: []
+I, [2017-12-08T21:12:50.648632 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Synchronizing Cookbooks:
+I, [2017-12-08T21:12:50.649500 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Installing Cookbook Gems:
+I, [2017-12-08T21:12:50.649854 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Compiling Cookbooks...
+I, [2017-12-08T21:12:50.650752 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: [2017-12-09T02:12:50+00:00] WARN: Node no-poise-ruby-works-vagrant-1404 has an empty run list.
+I, [2017-12-08T21:12:50.651154 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: [2017-12-09T02:12:50+00:00] WARN: Node no-poise-ruby-works-vagrant-1404 has an empty run list.
+I, [2017-12-08T21:12:50.651992 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Converging 0 resources
+I, [2017-12-08T21:12:50.689466 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: 
+I, [2017-12-08T21:12:50.689780 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Running handlers:
+I, [2017-12-08T21:12:50.690055 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Running handlers complete
+I, [2017-12-08T21:12:50.690310 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Chef Client finished, 0/0 resources updated in 01 seconds
+I, [2017-12-08T21:12:50.756363 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Finished converging <no-poise-ruby-works-vagrant-1404> (0m19.07s).
+I, [2017-12-08T21:12:50.756532 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: -----> Setting up <no-poise-ruby-works-vagrant-1404>...
+I, [2017-12-08T21:12:50.757851 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Finished setting up <no-poise-ruby-works-vagrant-1404> (0m0.00s).
+I, [2017-12-08T21:12:50.757977 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: -----> Verifying <no-poise-ruby-works-vagrant-1404>...
+I, [2017-12-08T21:12:50.758847 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Preparing files for transfer
+I, [2017-12-08T21:12:50.919625 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: -----> Installing Busser (busser)
+I, [2017-12-08T21:12:51.527410 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Fetching: thor-0.19.0.gemFetching: thor-0.19.0.gem (  3%)Fetching: thor-0.19.0.gem (  6%)Fetching: thor-0.19.0.gem (  9%)Fetching: thor-0.19.0.gem ( 12%)Fetching: thor-0.19.0.gem ( 15%)Fetching: thor-0.19.0.gem ( 17%)Fetching: thor-0.19.0.gem ( 20%)Fetching: thor-0.19.0.gem ( 23%)Fetching: thor-0.19.0.gem ( 26%)Fetching: thor-0.19.0.gem ( 29%)Fetching: thor-0.19.0.gem ( 32%)Fetching: thor-0.19.0.gem ( 35%)Fetching: thor-0.19.0.gem ( 53%)Fetching: thor-0.19.0.gem ( 71%)Fetching: thor-0.19.0.gem ( 89%)Fetching: thor-0.19.0.gem (100%)Fetching: thor-0.19.0.gem (100%)
+I, [2017-12-08T21:12:51.554146 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Successfully installed thor-0.19.0
+I, [2017-12-08T21:12:51.576085 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Fetching: busser-0.7.1.gemFetching: busser-0.7.1.gem ( 64%)Fetching: busser-0.7.1.gem (100%)Fetching: busser-0.7.1.gem (100%)
+I, [2017-12-08T21:12:51.593812 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Successfully installed busser-0.7.1
+I, [2017-12-08T21:12:51.594387 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: 2 gems installed
+I, [2017-12-08T21:12:51.731129 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: -----> Installing Busser plugin: busser-bats
+I, [2017-12-08T21:12:52.733484 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Plugin bats installed (version 0.3.0)
+I, [2017-12-08T21:12:52.735548 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: -----> Running postinstall for bats plugin
+I, [2017-12-08T21:12:52.750219 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Installed Bats to /tmp/verifier/vendor/bats/bin/bats
+I, [2017-12-08T21:12:52.928650 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Suite path directory /tmp/verifier/suites does not exist, skipping.
+I, [2017-12-08T21:12:52.932356 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Transferring files to <no-poise-ruby-works-vagrant-1404>
+I, [2017-12-08T21:12:53.119812 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: -----> Running bats test suite
+I, [2017-12-08T21:12:53.169229 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: [1G   it gets here![K[77G1/1[2G[1G ✓ it gets here![K
+I, [2017-12-08T21:12:53.170274 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: [0m
+I, [2017-12-08T21:12:53.170568 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: 1 test, 0 failures
+I, [2017-12-08T21:12:53.176742 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Finished verifying <no-poise-ruby-works-vagrant-1404> (0m2.42s).
+I, [2017-12-08T21:12:53.177613 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: -----> Destroying <no-poise-ruby-works-vagrant-1404>...
+I, [2017-12-08T21:12:56.261976 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Forcing shutdown of VM...
+I, [2017-12-08T21:12:57.461001 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: ==> default: Destroying VM and associated drives...
+I, [2017-12-08T21:12:57.895021 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Vagrant instance <no-poise-ruby-works-vagrant-1404> destroyed.
+I, [2017-12-08T21:12:57.895949 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Finished destroying <no-poise-ruby-works-vagrant-1404> (0m4.72s).
+I, [2017-12-08T21:12:57.896197 #37312]  INFO -- no-poise-ruby-works-vagrant-1404: Finished testing <no-poise-ruby-works-vagrant-1404> (1m11.58s).
