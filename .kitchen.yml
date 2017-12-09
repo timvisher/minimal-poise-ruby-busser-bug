@@ -1,0 +1,15 @@
+---
+provisioner:
+  name: chef_solo
+  require_chef_omnibus: 13
+
+platforms:
+  - name: vagrant-14.04
+    driver:
+      name: vagrant
+      box: ubuntu/trusty64
+
+suites:
+  - name: bad-poise-ruby
+    run_list:
+      - recipe[bad_poise_ruby]

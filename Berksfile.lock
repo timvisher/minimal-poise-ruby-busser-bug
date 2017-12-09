@@ -1,0 +1,20 @@
+DEPENDENCIES
+  bad_poise_ruby
+    path: cookbooks/bad_poise_ruby
+  minimal-poise-ruby-busser-bug
+    path: .
+    metadata: true
+
+GRAPH
+  bad_poise_ruby (0.0.0)
+    poise-ruby (~> 2.3.0)
+  minimal-poise-ruby-busser-bug (0.0.0)
+  poise (2.8.1)
+  poise-archive (1.5.0)
+    poise (~> 2.6)
+  poise-languages (2.1.1)
+    poise (~> 2.5)
+    poise-archive (~> 1.0)
+  poise-ruby (2.3.0)
+    poise (~> 2.0)
+    poise-languages (~> 2.0)
