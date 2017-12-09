@@ -1,0 +1,372 @@
+I, [2017-12-08T20:58:26.656109 #34344]  INFO -- bad-poise-ruby-vagrant-1404: -----> Cleaning up any prior instances of <bad-poise-ruby-vagrant-1404>
+I, [2017-12-08T20:58:26.656843 #34344]  INFO -- bad-poise-ruby-vagrant-1404: -----> Destroying <bad-poise-ruby-vagrant-1404>...
+I, [2017-12-08T20:58:29.496478 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: Forcing shutdown of VM...
+I, [2017-12-08T20:58:30.724967 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: Destroying VM and associated drives...
+I, [2017-12-08T20:58:31.109230 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Vagrant instance <bad-poise-ruby-vagrant-1404> destroyed.
+I, [2017-12-08T20:58:31.110265 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Finished destroying <bad-poise-ruby-vagrant-1404> (0m4.45s).
+I, [2017-12-08T20:58:31.110619 #34344]  INFO -- bad-poise-ruby-vagrant-1404: -----> Testing <bad-poise-ruby-vagrant-1404>
+I, [2017-12-08T20:58:31.110835 #34344]  INFO -- bad-poise-ruby-vagrant-1404: -----> Creating <bad-poise-ruby-vagrant-1404>...
+I, [2017-12-08T20:58:31.910380 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2017-12-08T20:58:32.101473 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: Importing base box 'ubuntu/trusty64'...
+I, [2017-12-08T20:58:42.045667 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2017-12-08T20:58:42.316194 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: Checking if box 'ubuntu/trusty64' is up to date...
+I, [2017-12-08T20:58:43.907336 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: A newer version of the box 'ubuntu/trusty64' is available! You currently
+I, [2017-12-08T20:58:43.907418 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: have version '20171010.0.0'. The latest is version '20171205.0.1'. Run
+I, [2017-12-08T20:58:43.907463 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: `vagrant box update` to update.
+I, [2017-12-08T20:58:44.746407 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: Setting the name of the VM: bad-poise-ruby-vagrant-1404_default_1512784724642_81687
+I, [2017-12-08T20:58:44.991622 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: Clearing any previously set forwarded ports...
+I, [2017-12-08T20:58:46.594724 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: Fixed port collision for 22 => 2222. Now on port 2203.
+I, [2017-12-08T20:58:46.703677 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: Clearing any previously set network interfaces...
+I, [2017-12-08T20:58:46.812814 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: Preparing network interfaces based on configuration...
+I, [2017-12-08T20:58:46.813012 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: Adapter 1: nat
+I, [2017-12-08T20:58:46.925831 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: Forwarding ports...
+I, [2017-12-08T20:58:47.056420 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: 22 (guest) => 2203 (host) (adapter 1)
+I, [2017-12-08T20:58:47.386787 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: Booting VM...
+I, [2017-12-08T20:58:47.698646 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2017-12-08T20:58:48.079037 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: SSH address: 127.0.0.1:2203
+I, [2017-12-08T20:58:48.079200 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: SSH username: vagrant
+I, [2017-12-08T20:58:48.079341 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: SSH auth method: private key
+I, [2017-12-08T20:59:07.034665 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: 
+I, [2017-12-08T20:59:07.034752 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2017-12-08T20:59:07.034790 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: this with a newly generated keypair for better security.
+I, [2017-12-08T20:59:07.419809 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: 
+I, [2017-12-08T20:59:07.419952 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: Inserting generated public key within guest...
+I, [2017-12-08T20:59:07.484867 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: Removing insecure key from the guest if it's present...
+I, [2017-12-08T20:59:07.529127 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2017-12-08T20:59:08.776326 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: Machine booted and ready!
+I, [2017-12-08T20:59:08.776734 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: Checking for guest additions in VM...
+I, [2017-12-08T20:59:08.883187 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: The guest additions on this VM do not match the installed version of
+I, [2017-12-08T20:59:08.883267 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2017-12-08T20:59:08.883356 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: prevent things such as shared folders from working properly. If you see
+I, [2017-12-08T20:59:08.883425 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: shared folder errors, please make sure the guest additions within the
+I, [2017-12-08T20:59:08.883469 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2017-12-08T20:59:08.883496 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: your host and reload your VM.
+I, [2017-12-08T20:59:08.883523 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: 
+I, [2017-12-08T20:59:08.883546 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: Guest Additions Version: 4.3.36
+I, [2017-12-08T20:59:08.883569 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     default: VirtualBox Version: 5.2
+I, [2017-12-08T20:59:08.884074 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: Setting hostname...
+I, [2017-12-08T20:59:09.486487 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2017-12-08T20:59:11.334481 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [SSH] Established
+I, [2017-12-08T20:59:11.334788 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Vagrant instance <bad-poise-ruby-vagrant-1404> created.
+I, [2017-12-08T20:59:11.335627 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Finished creating <bad-poise-ruby-vagrant-1404> (0m40.22s).
+I, [2017-12-08T20:59:11.336305 #34344]  INFO -- bad-poise-ruby-vagrant-1404: -----> Converging <bad-poise-ruby-vagrant-1404>...
+I, [2017-12-08T20:59:11.337089 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Preparing files for transfer
+I, [2017-12-08T20:59:11.337220 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Preparing dna.json
+I, [2017-12-08T20:59:11.337774 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Resolving cookbook dependencies with Berkshelf 6.3.1...
+I, [2017-12-08T20:59:11.546276 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Removing non-cookbook files before transfer
+I, [2017-12-08T20:59:11.559270 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Preparing solo.rb
+I, [2017-12-08T20:59:11.569876 #34344]  INFO -- bad-poise-ruby-vagrant-1404: -----> Installing Chef Omnibus (12)
+I, [2017-12-08T20:59:11.570422 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2017-12-08T20:59:11.570834 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Trying wget...
+I, [2017-12-08T20:59:11.656586 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Download complete.
+I, [2017-12-08T20:59:11.668207 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ubuntu 14.04 x86_64
+I, [2017-12-08T20:59:11.668426 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Getting information for chef stable 12 for ubuntu...
+I, [2017-12-08T20:59:11.668733 #34344]  INFO -- bad-poise-ruby-vagrant-1404: downloading https://omnitruck.chef.io/stable/chef/metadata?v=12&p=ubuntu&pv=14.04&m=x86_64
+I, [2017-12-08T20:59:11.669108 #34344]  INFO -- bad-poise-ruby-vagrant-1404:   to file /tmp/install.sh.1771/metadata.txt
+I, [2017-12-08T20:59:11.669796 #34344]  INFO -- bad-poise-ruby-vagrant-1404: trying wget...
+I, [2017-12-08T20:59:11.816180 #34344]  INFO -- bad-poise-ruby-vagrant-1404: sha1	b21baa643ef453f488351cd5623756e19ebec749
+I, [2017-12-08T20:59:11.816875 #34344]  INFO -- bad-poise-ruby-vagrant-1404: sha256	f2320ba894d92e4fd8fbae81546a70f124754cd40be388ba44de8180fbc2ea4d
+I, [2017-12-08T20:59:11.817372 #34344]  INFO -- bad-poise-ruby-vagrant-1404: url	https://packages.chef.io/files/stable/chef/12.21.26/ubuntu/14.04/chef_12.21.26-1_amd64.deb
+I, [2017-12-08T20:59:11.818153 #34344]  INFO -- bad-poise-ruby-vagrant-1404: version	12.21.26
+I, [2017-12-08T20:59:11.819692 #34344]  INFO -- bad-poise-ruby-vagrant-1404: downloaded metadata file looks valid...
+I, [2017-12-08T20:59:11.824432 #34344]  INFO -- bad-poise-ruby-vagrant-1404: downloading https://packages.chef.io/files/stable/chef/12.21.26/ubuntu/14.04/chef_12.21.26-1_amd64.deb
+I, [2017-12-08T20:59:11.824672 #34344]  INFO -- bad-poise-ruby-vagrant-1404:   to file /tmp/install.sh.1771/chef_12.21.26-1_amd64.deb
+I, [2017-12-08T20:59:11.825064 #34344]  INFO -- bad-poise-ruby-vagrant-1404: trying wget...
+I, [2017-12-08T20:59:15.681734 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Comparing checksum with sha256sum...
+I, [2017-12-08T20:59:15.879228 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Installing chef 12
+I, [2017-12-08T20:59:15.879506 #34344]  INFO -- bad-poise-ruby-vagrant-1404: installing with dpkg...
+I, [2017-12-08T20:59:16.182810 #34344]  INFO -- bad-poise-ruby-vagrant-1404: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 63103 files and directories currently installed.)
+I, [2017-12-08T20:59:16.185163 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Preparing to unpack .../chef_12.21.26-1_amd64.deb ...
+I, [2017-12-08T20:59:17.577530 #34344]  INFO -- bad-poise-ruby-vagrant-1404:  * Stopping chef-client chef-client       [80G [74G[ OK ]
+I, [2017-12-08T20:59:17.586444 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Unpacking chef (12.21.26-1) over (11.8.2-2) ...
+I, [2017-12-08T20:59:22.796600 #34344]  INFO -- bad-poise-ruby-vagrant-1404: dpkg: warning: unable to delete old directory '/var/log/chef': Directory not empty
+I, [2017-12-08T20:59:22.798695 #34344]  INFO -- bad-poise-ruby-vagrant-1404: dpkg: warning: unable to delete old directory '/etc/chef': Directory not empty
+I, [2017-12-08T20:59:22.830280 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Setting up chef (12.21.26-1) ...
+I, [2017-12-08T20:59:22.888959 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Thank you for installing Chef!
+I, [2017-12-08T20:59:22.900622 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+I, [2017-12-08T20:59:23.259852 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Transferring files to <bad-poise-ruby-vagrant-1404>
+I, [2017-12-08T20:59:24.560149 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:24+00:00] INFO: Forking chef instance to converge...
+I, [2017-12-08T20:59:24.568163 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Starting Chef Client, version 12.21.26
+I, [2017-12-08T20:59:24.568488 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:24+00:00] INFO: *** Chef 12.21.26 ***
+I, [2017-12-08T20:59:24.569048 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:24+00:00] INFO: Platform: x86_64-linux
+I, [2017-12-08T20:59:24.569395 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:24+00:00] INFO: Chef-client pid: 2387
+I, [2017-12-08T20:59:24.571178 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:24+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+I, [2017-12-08T20:59:25.888754 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Creating a new client identity for bad-poise-ruby-vagrant-1404 using the validator key.
+I, [2017-12-08T20:59:25.889132 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:25+00:00] INFO: Client key /tmp/kitchen/client.pem is not present - registering
+I, [2017-12-08T20:59:26.039643 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: HTTP Request Returned 404 Not Found: Object not found: chefzero://localhost:8889/nodes/bad-poise-ruby-vagrant-1404
+I, [2017-12-08T20:59:26.042104 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Setting the run_list to ["recipe[bad_poise_ruby]"] from CLI options
+I, [2017-12-08T20:59:26.051502 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Run List is [recipe[bad_poise_ruby]]
+I, [2017-12-08T20:59:26.051916 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Run List expands to [bad_poise_ruby]
+I, [2017-12-08T20:59:26.052369 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Starting Chef Run for bad-poise-ruby-vagrant-1404
+I, [2017-12-08T20:59:26.052889 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Running start handlers
+I, [2017-12-08T20:59:26.053291 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Start handlers complete.
+I, [2017-12-08T20:59:26.054400 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+I, [2017-12-08T20:59:26.055046 #34344]  INFO -- bad-poise-ruby-vagrant-1404: resolving cookbooks for run list: ["bad_poise_ruby"]
+I, [2017-12-08T20:59:26.259551 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Loading cookbooks [bad_poise_ruby@0.0.0, poise-ruby@2.3.0, poise@2.8.1, poise-languages@2.1.1, poise-archive@1.5.0]
+I, [2017-12-08T20:59:26.263513 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Synchronizing Cookbooks:
+I, [2017-12-08T20:59:26.269677 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/bad_poise_ruby/metadata.json in the cache.
+I, [2017-12-08T20:59:26.275282 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby/cheftie.rb in the cache.
+I, [2017-12-08T20:59:26.275679 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/recipes/default.rb in the cache.
+I, [2017-12-08T20:59:26.275968 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/libraries/default.rb in the cache.
+I, [2017-12-08T20:59:26.279397 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby/resources/ruby_gem.rb in the cache.
+I, [2017-12-08T20:59:26.279668 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/attributes/default.rb in the cache.
+I, [2017-12-08T20:59:26.280879 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby/resources.rb in the cache.
+I, [2017-12-08T20:59:26.281617 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby/error.rb in the cache.
+I, [2017-12-08T20:59:26.281918 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby/resources/bundle_install.rb in the cache.
+I, [2017-12-08T20:59:26.282218 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby/bundler_mixin.rb in the cache.
+I, [2017-12-08T20:59:26.283239 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby/resources/ruby_execute.rb in the cache.
+I, [2017-12-08T20:59:26.283563 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/bad_poise_ruby/recipes/default.rb in the cache.
+I, [2017-12-08T20:59:26.283913 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby/resources/ruby_runtime.rb in the cache.
+I, [2017-12-08T20:59:26.284179 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby/resources/ruby_runtime_test.rb in the cache.
+I, [2017-12-08T20:59:26.289248 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby/ruby_providers/base.rb in the cache.
+I, [2017-12-08T20:59:26.290660 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby/ruby_command_mixin.rb in the cache.
+I, [2017-12-08T20:59:26.291187 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby/ruby_providers/chef.rb in the cache.
+I, [2017-12-08T20:59:26.291430 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby/ruby_providers/dummy.rb in the cache.
+I, [2017-12-08T20:59:26.291958 #34344]  INFO -- bad-poise-ruby-vagrant-1404:   - bad_poise_ruby (0.0.0)
+I, [2017-12-08T20:59:26.293939 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby/ruby_providers/system.rb in the cache.
+I, [2017-12-08T20:59:26.298629 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby/ruby_providers.rb in the cache.
+I, [2017-12-08T20:59:26.299004 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby/ruby_providers/scl.rb in the cache.
+I, [2017-12-08T20:59:26.299290 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby/version.rb in the cache.
+I, [2017-12-08T20:59:26.299506 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/files/halite_gem/poise_ruby.rb in the cache.
+I, [2017-12-08T20:59:26.299762 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/README.md in the cache.
+I, [2017-12-08T20:59:26.309410 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/libraries/default.rb in the cache.
+I, [2017-12-08T20:59:26.309706 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/backports/not_passed.rb in the cache.
+I, [2017-12-08T20:59:26.310000 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/backports/verify_path.rb in the cache.
+I, [2017-12-08T20:59:26.310397 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/backports.rb in the cache.
+I, [2017-12-08T20:59:26.310684 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/error.rb in the cache.
+I, [2017-12-08T20:59:26.311263 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/chefspec_matchers.rb in the cache.
+I, [2017-12-08T20:59:26.311522 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/defined_in.rb in the cache.
+I, [2017-12-08T20:59:26.311750 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/fused.rb in the cache.
+I, [2017-12-08T20:59:26.321090 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/include_recipe.rb in the cache.
+I, [2017-12-08T20:59:26.322004 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/inversion/options_provider.rb in the cache.
+I, [2017-12-08T20:59:26.322522 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/inversion/options_resource.rb in the cache.
+I, [2017-12-08T20:59:26.322741 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/inversion.rb in the cache.
+I, [2017-12-08T20:59:26.322959 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/lazy_default.rb in the cache.
+I, [2017-12-08T20:59:26.323201 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/lwrp_polyfill.rb in the cache.
+I, [2017-12-08T20:59:26.323549 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-ruby/metadata.json in the cache.
+I, [2017-12-08T20:59:26.323880 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/notifying_block.rb in the cache.
+I, [2017-12-08T20:59:26.324093 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/option_collector.rb in the cache.
+I, [2017-12-08T20:59:26.324417 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/resource_cloning.rb in the cache.
+I, [2017-12-08T20:59:26.327590 #34344]  INFO -- bad-poise-ruby-vagrant-1404:   - poise-ruby (2.3.0)
+I, [2017-12-08T20:59:26.331817 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/subresources/child.rb in the cache.
+I, [2017-12-08T20:59:26.332126 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/subresources/container.rb in the cache.
+I, [2017-12-08T20:59:26.332422 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/subresources/default_containers.rb in the cache.
+I, [2017-12-08T20:59:26.337340 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/template_content.rb in the cache.
+I, [2017-12-08T20:59:26.341581 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/provider.rb in the cache.
+I, [2017-12-08T20:59:26.341837 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/win32_user.rb in the cache.
+I, [2017-12-08T20:59:26.342193 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers.rb in the cache.
+I, [2017-12-08T20:59:26.342455 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/subcontext_block.rb in the cache.
+I, [2017-12-08T20:59:26.342667 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/resource_subclass.rb in the cache.
+I, [2017-12-08T20:59:26.349933 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/subcontext.rb in the cache.
+I, [2017-12-08T20:59:26.350236 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/resource.rb in the cache.
+I, [2017-12-08T20:59:26.350452 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/subcontext/resource_collection.rb in the cache.
+I, [2017-12-08T20:59:26.350695 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/subcontext/runner.rb in the cache.
+I, [2017-12-08T20:59:26.351004 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/subresources.rb in the cache.
+I, [2017-12-08T20:59:26.351189 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/utils/resource_provider_mixin.rb in the cache.
+I, [2017-12-08T20:59:26.356468 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/resource_name.rb in the cache.
+I, [2017-12-08T20:59:26.357760 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/version.rb in the cache.
+I, [2017-12-08T20:59:26.361728 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/libraries/default.rb in the cache.
+I, [2017-12-08T20:59:26.364802 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/scl/mixin.rb in the cache.
+I, [2017-12-08T20:59:26.365159 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/utils/shell_out.rb in the cache.
+I, [2017-12-08T20:59:26.365482 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise.rb in the cache.
+I, [2017-12-08T20:59:26.365696 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/README.md in the cache.
+I, [2017-12-08T20:59:26.366790 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/metadata.json in the cache.
+I, [2017-12-08T20:59:26.367061 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/command/mixin.rb in the cache.
+I, [2017-12-08T20:59:26.370224 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/scl/resource.rb in the cache.
+I, [2017-12-08T20:59:26.370586 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/command.rb in the cache.
+I, [2017-12-08T20:59:26.370827 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/error.rb in the cache.
+I, [2017-12-08T20:59:26.371087 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/utils.rb in the cache.
+I, [2017-12-08T20:59:26.371317 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/utils/win32.rb in the cache.
+I, [2017-12-08T20:59:26.374109 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/static/resource.rb in the cache.
+I, [2017-12-08T20:59:26.377265 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/system/mixin.rb in the cache.
+I, [2017-12-08T20:59:26.382922 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/utils/which.rb in the cache.
+I, [2017-12-08T20:59:26.384145 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/system.rb in the cache.
+I, [2017-12-08T20:59:26.384463 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/utils.rb in the cache.
+I, [2017-12-08T20:59:26.384723 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/static/mixin.rb in the cache.
+I, [2017-12-08T20:59:26.385326 #34344]  INFO -- bad-poise-ruby-vagrant-1404:   [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/scl.rb in the cache.
+I, [2017-12-08T20:59:26.385559 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/static.rb in the cache.
+I, [2017-12-08T20:59:26.386231 #34344]  INFO -- bad-poise-ruby-vagrant-1404: - poise (2.8.1)
+I, [2017-12-08T20:59:26.393837 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/version.rb in the cache.
+I, [2017-12-08T20:59:26.394207 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/system/resource.rb in the cache.
+I, [2017-12-08T20:59:26.394407 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages.rb in the cache.
+I, [2017-12-08T20:59:26.398231 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/archive_providers/tar.rb in the cache.
+I, [2017-12-08T20:59:26.398593 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/README.md in the cache.
+I, [2017-12-08T20:59:26.398896 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-languages/metadata.json in the cache.
+I, [2017-12-08T20:59:26.399134 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/libraries/default.rb in the cache.
+I, [2017-12-08T20:59:26.401424 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/bzip2/LICENSE in the cache.
+I, [2017-12-08T20:59:26.401748 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/attributes/default.rb in the cache.
+I, [2017-12-08T20:59:26.401985 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/archive_providers/base.rb in the cache.
+I, [2017-12-08T20:59:26.402252 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/archive_providers/gnu_tar.rb in the cache.
+I, [2017-12-08T20:59:26.402414 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/archive_providers/seven_zip.rb in the cache.
+I, [2017-12-08T20:59:26.403063 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/archive_providers/zip.rb in the cache.
+I, [2017-12-08T20:59:26.407125 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/bzip2/crc.rb in the cache.
+I, [2017-12-08T20:59:26.407691 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/archive_providers.rb in the cache.
+I, [2017-12-08T20:59:26.407978 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/bzip2/decompressor.rb in the cache.
+I, [2017-12-08T20:59:26.408317 #34344]  INFO -- bad-poise-ruby-vagrant-1404:   - poise-languages (2.1.1)
+I, [2017-12-08T20:59:26.410263 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/bzip2/input_data.rb in the cache.
+I, [2017-12-08T20:59:26.410557 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/bzip2/constants.rb in the cache.
+I, [2017-12-08T20:59:26.417481 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/bzip2.rb in the cache.
+I, [2017-12-08T20:59:26.418975 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/cheftie.rb in the cache.
+I, [2017-12-08T20:59:26.419326 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/resources/poise_archive.rb in the cache.
+I, [2017-12-08T20:59:26.419710 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/resources.rb in the cache.
+I, [2017-12-08T20:59:26.419963 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/version.rb in the cache.
+I, [2017-12-08T20:59:26.420194 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive.rb in the cache.
+I, [2017-12-08T20:59:26.420439 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/README.md in the cache.
+I, [2017-12-08T20:59:26.422262 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/bzip2/output_data.rb in the cache.
+I, [2017-12-08T20:59:26.423666 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: Storing updated cookbooks/poise-archive/metadata.json in the cache.
+I, [2017-12-08T20:59:26.424427 #34344]  INFO -- bad-poise-ruby-vagrant-1404:   - poise-archive (1.5.0)
+I, [2017-12-08T20:59:26.424939 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Installing Cookbook Gems:
+I, [2017-12-08T20:59:26.425668 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Compiling Cookbooks...
+I, [2017-12-08T20:59:26.481981 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:26+00:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+I, [2017-12-08T20:59:26.482386 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Converging 1 resources
+I, [2017-12-08T20:59:26.482831 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Recipe: bad_poise_ruby::default
+I, [2017-12-08T20:59:26.483628 #34344]  INFO -- bad-poise-ruby-vagrant-1404:   * ruby_runtime[2] action install[2017-12-09T01:59:26+00:00] INFO: Processing ruby_runtime[2] action install (bad_poise_ruby::default line 1)
+I, [2017-12-08T20:59:26.496370 #34344]  INFO -- bad-poise-ruby-vagrant-1404: 
+I, [2017-12-08T20:59:26.496868 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     * poise_languages_system[ruby2.0] action install[2017-12-09T01:59:26+00:00] INFO: Processing poise_languages_system[ruby2.0] action install (/tmp/kitchen/cache/cookbooks/poise-languages/files/halite_gem/poise_languages/system/mixin.rb line 32)
+I, [2017-12-08T20:59:31.117813 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:31+00:00] INFO: apt_package[ruby2.0, ruby2.0-dev] installed ["ruby2.0", "ruby2.0-dev"] at ["2.0.0.484-1ubuntu2.4", "2.0.0.484-1ubuntu2.4"]
+I, [2017-12-08T20:59:31.118139 #34344]  INFO -- bad-poise-ruby-vagrant-1404: 
+I, [2017-12-08T20:59:31.118217 #34344]  INFO -- bad-poise-ruby-vagrant-1404:       - install version 2.0.0.484-1ubuntu2.4 of package ruby2.0
+I, [2017-12-08T20:59:31.118269 #34344]  INFO -- bad-poise-ruby-vagrant-1404:       - install version 2.0.0.484-1ubuntu2.4 of package ruby2.0-dev
+I, [2017-12-08T20:59:31.118320 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     * apt_package[ruby2.0, ruby2.0-dev] action nothing[2017-12-09T01:59:31+00:00] INFO: Processing apt_package[ruby2.0, ruby2.0-dev] action nothing (/tmp/kitchen/cache/cookbooks/poise-languages/files/halite_gem/poise_languages/system/resource.rb line 144)
+I, [2017-12-08T20:59:31.118388 #34344]  INFO -- bad-poise-ruby-vagrant-1404:  (skipped due to action :nothing)
+I, [2017-12-08T20:59:31.118440 #34344]  INFO -- bad-poise-ruby-vagrant-1404:   
+I, [2017-12-08T20:59:31.118496 #34344]  INFO -- bad-poise-ruby-vagrant-1404:   * ruby_gem[bundler] action upgrade[2017-12-09T01:59:31+00:00] INFO: Processing ruby_gem[bundler] action upgrade (/tmp/kitchen/cache/cookbooks/poise-ruby/files/halite_gem/poise_ruby/ruby_providers/base.rb line 109)
+I, [2017-12-08T20:59:33.655994 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:33+00:00] INFO: ruby_gem[bundler] upgraded bundler to 1.16.0
+I, [2017-12-08T20:59:33.656074 #34344]  INFO -- bad-poise-ruby-vagrant-1404: 
+I, [2017-12-08T20:59:33.656114 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     - upgrade package bundler from uninstalled to 1.16.0
+I, [2017-12-08T20:59:33.656144 #34344]  INFO -- bad-poise-ruby-vagrant-1404: 
+I, [2017-12-08T20:59:33.694314 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:33+00:00] INFO: Chef Run complete in 7.6410452 seconds
+I, [2017-12-08T20:59:33.700495 #34344]  INFO -- bad-poise-ruby-vagrant-1404: 
+I, [2017-12-08T20:59:33.700860 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Running handlers:
+I, [2017-12-08T20:59:33.701115 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:33+00:00] INFO: Running report handlers
+I, [2017-12-08T20:59:33.701408 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Running handlers complete
+I, [2017-12-08T20:59:33.701691 #34344]  INFO -- bad-poise-ruby-vagrant-1404: [2017-12-09T01:59:33+00:00] INFO: Report handlers complete
+I, [2017-12-08T20:59:33.702550 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Chef Client finished, 4/5 resources updated in 09 seconds
+I, [2017-12-08T20:59:33.782996 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Finished converging <bad-poise-ruby-vagrant-1404> (0m22.44s).
+I, [2017-12-08T20:59:33.783155 #34344]  INFO -- bad-poise-ruby-vagrant-1404: -----> Setting up <bad-poise-ruby-vagrant-1404>...
+I, [2017-12-08T20:59:33.784074 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Finished setting up <bad-poise-ruby-vagrant-1404> (0m0.00s).
+I, [2017-12-08T20:59:33.784191 #34344]  INFO -- bad-poise-ruby-vagrant-1404: -----> Verifying <bad-poise-ruby-vagrant-1404>...
+I, [2017-12-08T20:59:33.784744 #34344]  INFO -- bad-poise-ruby-vagrant-1404: Preparing files for transfer
+I, [2017-12-08T20:59:33.972011 #34344]  INFO -- bad-poise-ruby-vagrant-1404: -----> Installing Busser (busser)
+I, [2017-12-08T20:59:34.424407 #34344]  INFO -- bad-poise-ruby-vagrant-1404: ERROR:  While executing gem ... (Errno::EACCES)
+I, [2017-12-08T20:59:34.424656 #34344]  INFO -- bad-poise-ruby-vagrant-1404:     Permission denied @ dir_s_mkdir - /home/vagrant/.gem/specs
+I, [2017-12-08T20:59:34.444820 #34344]  INFO -- bad-poise-ruby-vagrant-1404: sudo: /tmp/verifier/bin/busser: command not found
+I, [2017-12-08T20:59:34.582828 #34344]  INFO -- bad-poise-ruby-vagrant-1404: -----> Installing Busser plugin: busser-bats
+I, [2017-12-08T20:59:34.586073 #34344]  INFO -- bad-poise-ruby-vagrant-1404: sudo: /tmp/verifier/bin/busser: command not found
+E, [2017-12-08T20:59:34.587677 #34344] ERROR -- bad-poise-ruby-vagrant-1404: Verify failed on instance <bad-poise-ruby-vagrant-1404>.
+E, [2017-12-08T20:59:34.587810 #34344] ERROR -- bad-poise-ruby-vagrant-1404: ------Exception-------
+E, [2017-12-08T20:59:34.587838 #34344] ERROR -- bad-poise-ruby-vagrant-1404: Class: Kitchen::ActionFailed
+E, [2017-12-08T20:59:34.587858 #34344] ERROR -- bad-poise-ruby-vagrant-1404: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+BUSSER_ROOT="/tmp/verifier"; export BUSSER_ROOT
+GEM_HOME="/tmp/verifier/gems"; export GEM_HOME
+GEM_PATH="/tmp/verifier/gems"; export GEM_PATH
+GEM_CACHE="/tmp/verifier/gems/cache"; export GEM_CACHE
+ruby="/opt/chef/embedded/bin/ruby"
+gem="/opt/chef/embedded/bin/gem"
+version="busser"
+gem_install_args="busser --no-rdoc --no-ri --no-format-executable -n /tmp/verifier/bin --no-user-install"
+busser="sudo -E /tmp/verifier/bin/busser"
+plugins="busser-bats"
+
+$gem list --no-versions | grep "^busser" 2>&1 >/dev/null
+if test $? -ne 0; then
+  echo "-----> Installing Busser ($version)"
+  $gem install $gem_install_args
+else
+  echo "-----> Busser installation detected ($version)"
+fi
+
+if test ! -f "$BUSSER_ROOT/bin/busser"; then
+  $busser setup
+fi
+
+for plugin in $plugins; do
+  $gem list --no-versions | grep "^$plugin$" 2>&1 >/dev/null
+  if test $? -ne 0; then
+    echo "-----> Installing Busser plugin: $plugin"
+    $busser plugin install $plugin
+  else
+    echo "-----> Busser plugin detected: $plugin"
+  fi
+done
+']
+E, [2017-12-08T20:59:34.587878 #34344] ERROR -- bad-poise-ruby-vagrant-1404: ----------------------
+E, [2017-12-08T20:59:34.587896 #34344] ERROR -- bad-poise-ruby-vagrant-1404: ------Backtrace-------
+E, [2017-12-08T20:59:34.587913 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/verifier/base.rb:80:in `rescue in call'
+E, [2017-12-08T20:59:34.587931 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/verifier/base.rb:83:in `call'
+E, [2017-12-08T20:59:34.587948 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:443:in `block in verify_action'
+E, [2017-12-08T20:59:34.587966 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:536:in `synchronize_or_call'
+E, [2017-12-08T20:59:34.587987 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:498:in `block in action'
+E, [2017-12-08T20:59:34.588005 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2017-12-08T20:59:34.588022 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:497:in `action'
+E, [2017-12-08T20:59:34.588052 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:435:in `verify_action'
+E, [2017-12-08T20:59:34.588071 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:368:in `block in transition_to'
+E, [2017-12-08T20:59:34.588089 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `each'
+E, [2017-12-08T20:59:34.588106 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `transition_to'
+E, [2017-12-08T20:59:34.588123 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:157:in `verify'
+E, [2017-12-08T20:59:34.588141 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:186:in `block in test'
+E, [2017-12-08T20:59:34.588160 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2017-12-08T20:59:34.588178 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:182:in `test'
+E, [2017-12-08T20:59:34.588195 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2017-12-08T20:59:34.588213 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2017-12-08T20:59:34.588230 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2017-12-08T20:59:34.588270 #34344] ERROR -- bad-poise-ruby-vagrant-1404: ----End Backtrace-----
+E, [2017-12-08T20:59:34.588288 #34344] ERROR -- bad-poise-ruby-vagrant-1404: ---Nested Exception---
+E, [2017-12-08T20:59:34.588305 #34344] ERROR -- bad-poise-ruby-vagrant-1404: Class: Kitchen::Transport::SshFailed
+E, [2017-12-08T20:59:34.588321 #34344] ERROR -- bad-poise-ruby-vagrant-1404: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+BUSSER_ROOT="/tmp/verifier"; export BUSSER_ROOT
+GEM_HOME="/tmp/verifier/gems"; export GEM_HOME
+GEM_PATH="/tmp/verifier/gems"; export GEM_PATH
+GEM_CACHE="/tmp/verifier/gems/cache"; export GEM_CACHE
+ruby="/opt/chef/embedded/bin/ruby"
+gem="/opt/chef/embedded/bin/gem"
+version="busser"
+gem_install_args="busser --no-rdoc --no-ri --no-format-executable -n /tmp/verifier/bin --no-user-install"
+busser="sudo -E /tmp/verifier/bin/busser"
+plugins="busser-bats"
+
+$gem list --no-versions | grep "^busser" 2>&1 >/dev/null
+if test $? -ne 0; then
+  echo "-----> Installing Busser ($version)"
+  $gem install $gem_install_args
+else
+  echo "-----> Busser installation detected ($version)"
+fi
+
+if test ! -f "$BUSSER_ROOT/bin/busser"; then
+  $busser setup
+fi
+
+for plugin in $plugins; do
+  $gem list --no-versions | grep "^$plugin$" 2>&1 >/dev/null
+  if test $? -ne 0; then
+    echo "-----> Installing Busser plugin: $plugin"
+    $busser plugin install $plugin
+  else
+    echo "-----> Busser plugin detected: $plugin"
+  fi
+done
+']
+E, [2017-12-08T20:59:34.588339 #34344] ERROR -- bad-poise-ruby-vagrant-1404: ----------------------
+E, [2017-12-08T20:59:34.588356 #34344] ERROR -- bad-poise-ruby-vagrant-1404: ------Backtrace-------
+E, [2017-12-08T20:59:34.588373 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/verifier/base.rb:80:in `rescue in call'
+E, [2017-12-08T20:59:34.588395 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/verifier/base.rb:83:in `call'
+E, [2017-12-08T20:59:34.588468 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:443:in `block in verify_action'
+E, [2017-12-08T20:59:34.588508 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:536:in `synchronize_or_call'
+E, [2017-12-08T20:59:34.588529 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:498:in `block in action'
+E, [2017-12-08T20:59:34.588547 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2017-12-08T20:59:34.588564 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:497:in `action'
+E, [2017-12-08T20:59:34.588580 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:435:in `verify_action'
+E, [2017-12-08T20:59:34.588597 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:368:in `block in transition_to'
+E, [2017-12-08T20:59:34.588613 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `each'
+E, [2017-12-08T20:59:34.588629 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `transition_to'
+E, [2017-12-08T20:59:34.588645 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:157:in `verify'
+E, [2017-12-08T20:59:34.588669 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:186:in `block in test'
+E, [2017-12-08T20:59:34.588684 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2017-12-08T20:59:34.588700 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:182:in `test'
+E, [2017-12-08T20:59:34.588715 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2017-12-08T20:59:34.588730 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2017-12-08T20:59:34.588745 #34344] ERROR -- bad-poise-ruby-vagrant-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2017-12-08T20:59:34.588761 #34344] ERROR -- bad-poise-ruby-vagrant-1404: ----End Backtrace-----
